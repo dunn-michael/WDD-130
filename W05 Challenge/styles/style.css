@@ -1,0 +1,21 @@
+.images{
+    border-radius: 50%;
+    border: rgb(87, 87, 87) 10px solid;
+    width: 25%;
+    margin: 200px 0px;
+}
+.daddy{
+    width: 100%;
+    background-color: dimgray;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    background-color: dimgray;
+    margin: 0;
+    /* flex-direction: column; */
+}
+body{
+    background-color: dimgray;
+    margin: 0;
+}
