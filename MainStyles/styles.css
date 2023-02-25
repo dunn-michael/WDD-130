@@ -1,0 +1,33 @@
+body{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    justify-items: center;
+    background-color: #EDDFEF;
+    margin: 0;
+}
+h1{
+    background-color: #48304D;
+    color: azure;
+    padding: 25px 0;
+    margin: auto 0;
+    width: 100%;
+    /* grid-column: 1/7; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 25px 0;
+}
+nav a{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: red;
+    text-align: center;
+}
