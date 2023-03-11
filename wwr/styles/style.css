@@ -212,6 +212,70 @@ nav{
     box-shadow: 5px 5px 10px #6f7364;;
 }
 
+.HEADLINE{
+    color: #fb9289;
+}
+.pictures{
+    width: 400px;
+    height: 400px;
+}
+
+/* OPTION 2 */
+.threeNight{
+    padding: 100px 150px 100px 150px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sixNight{
+    padding: 100px 150px 100px 150px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.salmon{
+    padding: 100px 150px 100px 150px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.desolation{
+    padding: 100px 150px 100px 150px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* OPTION 1 */
+/* .blog{
+    padding: 100px 150px 100px 150px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+.pictures{
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.overImage{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    font-size: 13px;
+    margin-right: 200px;
+    color: #fb9289;
+}
+.message{
+    grid-column: 2/3;
+    text-align: left;
+    margin: 0;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
