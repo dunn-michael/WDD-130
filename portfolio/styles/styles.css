@@ -1,6 +1,4 @@
 .logo{
-    /* width: 204px;
-    height: 153px; */
     width: 10%;
     height: 50%;
     border-radius: 50%;
@@ -19,4 +17,33 @@
     height: auto;
     object-fit: cover;
     object-position: center center;
-  }
+  } 
+
+.logo-link {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #888;
+}
+
+.logo-text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
