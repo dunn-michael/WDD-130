@@ -11,9 +11,14 @@
 nav a {
     color: black;
     text-decoration: none;
-    padding: 5px 35px;
+    /* padding: 5px 35px;
     display: flex;
+    align-items: center; */
+    padding: 25px 20px;
+    display: block;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }
 nav a:hover {
     text-align: center;

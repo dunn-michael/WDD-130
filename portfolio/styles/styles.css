@@ -1,49 +1,77 @@
 .logo{
-    width: 10%;
-    height: 50%;
+    width: 4%;
+    /* height: 50%;
     border-radius: 50%;
-    overflow: hidden;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
+    overflow: hidden; */
     border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  .logo img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center center;
-  } 
-
-.logo-link {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  color: #fff;
-  text-decoration: none;
 }
 
-.logo-circle {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #888;
-}
 
-.logo-text {
+nav{
+  background-color: #cfd7c7;
+  /* padding: 5px ; */
+  /* display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-around; */
+  /* align-content: center; */
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-around; */
+
+}
+nav a{
+  /* padding: 5px;
+    display: inline-block;
+  margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px; */
+  /* padding: 5px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  padding: 25px 20px;
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+}
+nav a:hover{
+  background-color: #b1b8a9;
+}
+nav img:hover{
+  background-color: #b1b8a9;
+}
+/* nav img{
+  padding-right: 20px;
+} */
+body{
+  margin: 0;
+}
+.pictureHome{
+  width: 200px;
+  height: auto;
+}
+.message1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.message, .title{
+  grid-column: 2/3;
+}
+.title{
+  grid-row: 1/2;
+}
+.message{
+  margin-bottom: 20px;
+}
+.pictureHome{
+  justify-content: center;
+  align-content: center;
+  grid-row: 1/2;
 }
