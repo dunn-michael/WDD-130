@@ -139,3 +139,47 @@ footer p {
 footer p a:hover{
   text-decoration: none;;
 }
+
+
+/* RESUME */
+.resumeSection{
+  display: grid;
+  grid-column: 1fr 1fr;
+  margin: 50px 50px 50px 50px;
+  background-color: #70a9a1;
+  padding: 50px 50px 50px 50px;
+  outline: black 2px solid;
+}
+
+.messageResume{
+  grid-column: 1/2;
+  justify-self: center;
+  font-size: 25px;
+}
+
+.resumePic{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 60%;
+  height: auto;
+  justify-self: center;
+}
+.captionResume{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  /* width: 130px;
+  height: 20px; */
+  width: auto;
+  height: 20px;
+  margin: 0;
+}
+
+#resumeCaption{
+  /* transform: translateX(100px);
+  transform: translateY(555px); */
+  transform: translate(120px, 480px);
+  
+}
+#river{
+  transform: translate(125px, 285px);
+}
