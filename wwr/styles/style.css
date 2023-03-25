@@ -362,6 +362,12 @@ form {
     margin-top: 3em;
 }
 
+.HEADLINE{
+    justify-self: center;
+    margin: auto;
+    width: 742px;
+}
+
 
 
 @media screen and (max-width: 900px) {
