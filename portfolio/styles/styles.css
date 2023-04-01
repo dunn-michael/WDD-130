@@ -183,3 +183,33 @@ footer p a:hover{
 #river{
   transform: translate(125px, 285px);
 }
+
+.expImg{
+  width: 500px;
+  height: auto;
+  grid-row: 1/2;
+}
+#EXPMAIN{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.expSection{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  margin: 50px 50px 50px 50px;
+  background-color: #70a9a1;
+  padding: 50px 50px 50px 50px;
+  outline: black 2px solid;
+}
+#BYUISection{
+  grid-column: 1/2;
+}
+#DoorzzaSection{
+  grid-column: 2/3;
+}
+
+.EXPMessage{
+  grid-row: 2/3;
+}

@@ -9,37 +9,50 @@
 </head>
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo2.jpg" alt="Logo">
-        </a>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" target="_blank">
+                <img class="logo" src="images/logo2.jpg" alt="Home Button">
+                <!-- <img class="logo" src="images/logo2.jpg"> -->
+            </a>
             <a href="resume.html">Resume</a>
             <a href="experience.html">Experience</a>
         </nav>
     </header>
-    <section class="experiece">
-        <div class="BYUI">
-            <h3 class="BYUIMessage">
-                I currently work at BYUI as a Tutor for the C language class and a Early Morning Custodian for the college.
-                Next semester I will be working those two jobs, along with a TA job. I will be the TA for a CSE 111(programming with functions) class
-                this class is taught in Python. I find that so far teaching has been my favorite job experience. While being a custodian has taught me 
-                how to effectively work with a team, I find that teaching is far more rewarding. I like to sit down with people and help them
-                with any problems they have, especially with something such as programming, which I am very passionate about.
-            </h3>
-            <img src="images/BYUI logo.png" alt="BYUI Logo">
+    <main id="EXPMAIN">
+            <div class="expSection" id="BYUISection">
+                <h3 class="EXPMessage">
+                    I currently work at BYUI as a Tutor for the C language class and a Early Morning Custodian for the college.
+                    Next semester I will be working those two jobs, along with a TA job. I will be the TA for a CSE 111(programming with functions) class
+                    this class is taught in Python. I find that so far teaching has been my favorite job experience. While being a custodian has taught me 
+                    how to effectively work with a team, I find that teaching is far more rewarding. I like to sit down with people and help them
+                    with any problems they have, especially with something such as programming, which I am very passionate about.
+                </h3>
+                <img class="expImg" id="byui" src="images/BYUI logo.png" alt="BYUI Logo">
+            </div>
+            <div class="expSection" id="DoorzzaSection">
+                <h3 class="EXPMessage">
+                    Before working at BYUI, I worked as a supervisor at a local Pizza company in Rexburg called Doorzza. I really loved
+                    my time working here, and quit in January of 2023. I started my job there in August of 2021. My responsibilities were to 
+                    ensure that everyone was working, and make sure they did they're job effectively and efficiently.
+                    I had to make sure everything ran quickly and smoothly as I was the only person in a leadership position most times.
+                    I found that teamwork and delegation was always very important. If we all didn't work together to get our tasks
+                    done properly nothing would have gotten done. Especially in a kitchen atmosphere teamwork is essential.
+                </h3>
+                <img class="expImg" id="doorzza" src="https://img1.wsimg.com/isteam/ip/5c7ede42-98ae-446b-b33b-ba67d3d42ac3/logo/494886bb-301c-44d0-9f67-d7c7c9e3bcb4.png/:/rs=w:249,h:80,cg:true,m/cr=w:249,h:80/qt=q:95" alt="Doorzza Logo">
+            </div>
+    </main>
+
+    <footer>
+        <p>Portfolio &copy; 2023 - Michael Dunn</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/michael-dunn-ee/" target="_blank">
+                <img src="images/linkedin.png" alt="Linkedin icon">
+            </a>
+            <a href="https://byui.joinhandshake.com/stu/users/29396745" target="_blank">
+                <img src="images/handshake.png" alt="handshake icon">
+            </a>
         </div>
-        <div class="DOORZZA">
-            <h3 class="DOORZZAMessage">
-                Before working at BYUI, I worked as a supervisor at a local Pizza company in Rexburg called Doorzza. I really loved
-                my time working here, and quit in January of 2023. I started my job there in August of 2021. My responsibilities were to 
-                ensure that everyone was working, and make sure they did they're job effectively and efficiently.
-                I had to make sure everything ran quickly and smoothly as I was the only person in a leadership position most times.
-                I found that teamwork and delegation was always very important. If we all didn't work together to get our tasks
-                done properly nothing would have gotten done. Especially in a kitchen atmosphere teamwork is essential.
-            </h3>
-            <img src="images/Doorzza.png" alt="BYUI Logo">
-        </div>
-    </section>
+    </footer>
 </body>
 </html>
